@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=Allura&family=Josefin+Sans:wght@200;300&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&display=swap);
+body {
+    background-color: aliceblue;
+}
+h1 {
+    font-family: 'Poppins', sans-serif;
+    background-color: azure;
+}
+#web_name {
+    margin-left: 200px;
+}
+#modal_btn {
+    float: right;
+    background-color: white;
+}
+#modal_btn:hover {
+    text-decoration: underline;
+}
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+span {
+    font-family: 'Josefin Sans', sans-serif;
+}
+#clear_canvas_btn {
+    background-color: white;
+    border: 1px black solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+}
+#clear_canvas_btn:hover {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+
+canvas {
+    margin-top: 100px;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: black 2px solid;
+}
+@keyframes animate {
+    0% {
+        box-shadow: 3px 3px 45px red;
+    }
+    20% {
+        box-shadow: 3px 3px 45px rgb(37, 73, 95);
+    }
+    40% {
+        box-shadow: 3px 3px 45px orange;
+    }
+    60% {
+        box-shadow: 3px 3px 45px green;
+    }
+    80% {
+        box-shadow: 3px 3px 45px brown;
+    }
+    100% {
+        box-shadow: 3px 3px 45px darkseagreen;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
